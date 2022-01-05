@@ -1,0 +1,12 @@
+1.Inicio
+
+5.Funcion Principal
+6.(valores(5),x[(a-z)(A-Z),(BS)])
+7.Para(i<-- 0, i < valores.length, i++) entonces
+8.	Escribir "Ingrese una cadena"
+9.	Lea valores[i]
+10.	Para(i<-- 0, i < valores.length, i ++)
+11.		Escribir valores[i] + "\n"
+12.	Fin Para
+13.Fin para
+14.Fin funcion Principal

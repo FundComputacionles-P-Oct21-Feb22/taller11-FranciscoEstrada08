@@ -1,0 +1,38 @@
+1.Inicio
+
+2.funcion principal
+3.opcion, d[0-n]
+4.Si (opcion == 1) entonces
+5.	valorPlanillaLuz()
+6.y si (opcion == 2) entonces
+	valorPredioInmueble()
+7.Fin si
+8.fin funicion principal
+
+9.funcion valorPlanillaLuz
+10.valorKilowatio, d[0-n]
+11.kilowatiosConsumidos, d[0-n]
+12.valorTotalKilowatio, d[0-n]
+
+13.Escribir "Ingrese el valor del kilowatio"
+14.Lea valorKilowatio
+
+15.Escribir "Ingrese los kilowatios consumidos"
+16.Lea kilowatiosConsumidos
+
+17.valorTotalKilowatio = valorKilowatio * kilowatiosConsumidos
+
+18.Escribir "Cliente Ana Contreras con cédula 1100112233 debe cancelar el valor de " + valorTotalKilowatio
+19.fin funcion vallorPlanillaLuz
+
+20.funcion valorPredioInmueble
+21.valorInmueble, d[0-n]
+22.porcentaje, i[0-n] <-- 2
+23.valorPredio, d[0-n]
+
+24.Escribir "Ingrese el valor del inmueble"
+25.Lea valorInmueble
+
+26.valorPredio = (valorInmueble * porcentaje)/100
+27.Escribir "Cliente Ana Contreras con cédula 1100112233 tiene un bien inmueble valorado en " + valorInmueble "y tiene que pagar de predio " + valorPredio
+28.fin funcion valorPredioInmueble

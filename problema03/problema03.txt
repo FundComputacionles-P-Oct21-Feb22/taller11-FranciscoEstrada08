@@ -1,0 +1,44 @@
+1.Incicio
+2.Funcion principal
+3.operacion, i[0-m]
+4.Si(operacion == 1) entonces
+5.	obtenerAreaCuadrado()
+6.y si (operacion == 2) entonces
+7.	obtenerAreaTriangulo()
+8.y si (operacion == 3) entonces
+9.	obtenerAreaRectangulo()
+10.Fin si
+11.Fin funcion principal
+
+12.Funcion obtenerAreaCuadrado()
+13.lado, d[0-n]
+14.area, d[0-n]
+15.Escriba "Ingrese el valor del lado del cuadrado"
+16.Lea lado
+17.area <-- (lado * lado * lado * lado)
+18.Escriba "El area del cuadrado es " + area
+19.Fin funcion areaCuadrado
+
+20.Funcion obtenerAreaTriangulo()
+21.base, d[0-n]
+22.altura, d[0-n]
+23.area, d[0-n]
+24.Escriba "Ingrese el valor de la base del triangulo"
+25.Lea base
+26.Escriba "Ingrese el valor de la altura del triangulo"
+27.Lea altura
+28.area <-- (base * altura)/2
+29.Escriba "El area del triangulo es " + area
+30.Fin funcion areaTriangulo
+
+Funcion obtenerAreaCuadrado()
+base, d[0-n]
+altura, d[0-n]
+area, d[0-n]
+Escriba "Ingrese el valor de la base del cuadrado"
+Lea base
+Escriba "Ingrese el valor de la altura del cuadrado"
+Lea altura
+area <-- (base * altura)
+Escriba "El area del cuadrado es " + area
+Fin funcion areaRectangulo
