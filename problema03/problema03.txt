@@ -1,6 +1,8 @@
 1.Incicio
 2.Funcion principal
 3.operacion, i[0-m]
+4.Escribe "Ingrese 1 para calcular el area del cuadrado, ingrese 2 para calcular el area del triangulo, ingrese 3 para calcular el area de rectangulo"
+5.Lea operacion
 4.Si(operacion == 1) entonces
 5.	obtenerAreaCuadrado()
 6.y si (operacion == 2) entonces
@@ -31,7 +33,7 @@
 29.Escriba "El area del triangulo es " + area
 30.Fin funcion areaTriangulo
 
-Funcion obtenerAreaCuadrado()
+Funcion obtenerAreaRectangulo()
 base, d[0-n]
 altura, d[0-n]
 area, d[0-n]
